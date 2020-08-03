@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 5px;
+    color: #353b48;
+}
+ p {
+    padding-bottom: 15px;
+ }
+
+/*@media (min-width:1050px) and (min-height: 600px){ */
+
+/* HEADER */
+header {
+    background-color: cornflowerblue;
+    color: white;
+    height: 20%; 
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 8%;
+    position: absolute;
+    top: 5%; 
+    bottom: 5%;
+    margin-left: 7%;
+}
+
+ul {
+    float: right;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding-right: 45px;
+    padding-top: 15%;
+}
+
+li a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 200%;
+    float: left;
+    padding-top: 3.5%;
+    padding-left: 20%;
+}
+
+#container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ /************************************FIM DO HEADER************************************/
+/*}*/ 
+
+.linha {
+    border-bottom : 1px #2f3640 solid;
+}
+
+#espacinho {
+    padding-bottom: 2%;
+}
+#ODS {
+    color: #353b48;
+    text-indent: 50px;
+    padding-top: 13%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    text-align: center;
+}
+
+#ODS p {
+    text-align: justify;
+}
+
+/* 7. ENERGIA LIMPA E ACESSIVEL*/
+#setima-ods {
+    color: #353b48;
+    text-indent: 50px;
+    float: left;
+    padding-top: 4%;
+    padding-left: 2%;
+    text-align: center;
+    width: 48%;
+}
+
+.flex {
+    display: flex;
+}
+
+#video {
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.p2 {
+    text-indent: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+    margin: 5px;
+}
+
+/*projetos promissores*/
+
+#projetos h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#projetos h3 {
+    text-align: center;
+}
+
+#projetos p {
+    text-indent: 50px;
+}
+
+#solar {
+    color: #353b48;
+    padding-left: 2%;
+    padding-top: 20px;
+    float: left;
+    width: 48%;
+    padding-bottom: 5%;
+}
+
+
+#solar p {
+    text-align: justify;
+}
+#img-solar {
+    float: right;
+    padding-right: 2%;
+    padding-left: 8%;
+    width: 40%;
+    padding-bottom: 6%;
+}
+
+#eolica {
+    color: #353b48;
+    padding-left: 2%;
+    padding-top: 100px;
+    float: left;
+    width: 48%;
+    padding-bottom: 5%;
+}
+
+#eolica h3 {
+    padding-bottom: 2%;
+}
+
+#eolica p {
+    text-align: justify;
+}
+
+#img-eolica {
+    float: right;
+    padding-right: 2%;
+    padding-left: 8%;
+    width: 40%;
+    padding-bottom: 6%;
+}
+
+#hidro {
+    color: #353b48;
+    padding-left: 2%;
+    padding-top: 200px;
+    float: left;
+    width: 48%;
+    padding-bottom: 5%;
+}
+
+#hidro h3 {
+    padding-bottom: 2%;
+}
+
+#hidro p {
+    text-align: justify;
+}
+
+#img-hidro {
+    float: right;
+    padding-right: 2%;
+    padding-left: 8%;
+    width: 40%;
+    padding-bottom: 6%;
+}
+
+/*footer*/
+
+#footer1 {
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #01AAEA;
+    float: left;
+    width: 44%;
+    height: 15%;
+    color: #f7f1e3;
+}
+
+#footer1 h4 {
+    text-align: center;
+}
+
+#footer1 p {
+    padding-top: 1%;
+}
+
+#footer2 {
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #01AAEA;
+    float: right;
+    width: 44%;
+    height: 15%;
+    color: #f7f1e3;
+}
+
+#footer2 h4 {
+    text-align: center;
+}
+
+#footer2 p {
+    padding-top: 2%;
+    text-align: center;
+}
